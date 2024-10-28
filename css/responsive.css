@@ -1,0 +1,29 @@
+/* Soluzione qui */
+
+@media screen and (min-width: 470px){
+  #topbar{
+   justify-content: flex-start;       
+  }
+
+  .recipe-title{
+    font-size: 1.5rem;
+  }
+
+  .recipe-origin{
+    display: inline-block;    
+  } 
+
+  .quick-notes ul li{
+    display: inline-block;
+    margin: 30px;
+  }
+
+  .btn{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ads{
+    display: block;
+  }
+}
