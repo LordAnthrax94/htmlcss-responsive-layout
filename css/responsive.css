@@ -1,5 +1,19 @@
 /* Soluzione qui */
 
+@media screen and (min-width: 576px){
+
+  .social-networks .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .clearfix img{
+    float: left;
+    margin-right: 10px;
+  }
+
+}
+
 @media screen and (min-width: 768px){
   .container{
     padding: 30px;
@@ -30,8 +44,4 @@
     display: block;
   }
 
-  .clearfix img{
-    float: left;
-    padding-right: 10px;
-  }
 }
