@@ -62,8 +62,9 @@
 
   .recipe-card{
     display: flex;
-    width: 100%;
+    width: 100%;      
   }
+  
   .recipe-video{
     width: 60%;
   }
@@ -82,8 +83,13 @@
 
   .social-networks .btn{
     display: flex;
+    align-items: center;    
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .social-networks i{
+    margin-right: 5px;
   }
 
   .social-networks .label {
