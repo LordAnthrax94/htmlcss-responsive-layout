@@ -78,8 +78,10 @@
    margin-bottom: 20px;    
   }  
 
-  .btn{
+  .social-networks .btn{
     display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .social-networks .label {
