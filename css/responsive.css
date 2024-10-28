@@ -23,7 +23,7 @@
   }
 
   .recipe-title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .recipe-origin{
@@ -44,4 +44,54 @@
     display: block;
   }
 
+}
+
+@media screen and (min-width: 992px){
+  .recipe-title{
+    font-size: 1.5rem;
+  }
+
+  .recipe-card{
+    display: flex;
+    width: 100%;
+  }
+  .recipe-video{
+    width: 60%;
+  }
+
+  .recipe-info{
+    width: 40%;    
+  }
+
+  .quick-notes ul li{ 
+   display: block;
+   padding: 0;
+   margin: 0;
+   margin-top: 20px;
+   margin-bottom: 20px;    
+  }
+
+  .btn{
+    display: flex;
+  }
+
+  .social-networks .label {
+    display: block;
+  }
+
+  footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer address{
+    text-align: left;
+  }
+
+  
+  
+  footer nav{
+    display: inline-block;
+  }
 }
