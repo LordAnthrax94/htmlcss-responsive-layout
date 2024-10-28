@@ -1,6 +1,9 @@
 /* Soluzione qui */
 
-@media screen and (min-width: 470px){
+@media screen and (min-width: 768px){
+  .container{
+    padding: 30px;
+  }
   #topbar{
    justify-content: flex-start;       
   }
@@ -18,12 +21,17 @@
     margin: 30px;
   }
 
-  .btn{
+  .social-networks .btn{
     padding-left: 50px;
     padding-right: 50px;
   }
 
   .ads{
     display: block;
+  }
+
+  .clearfix img{
+    float: left;
+    padding-right: 10px;
   }
 }
